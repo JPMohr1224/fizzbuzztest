@@ -1,18 +1,19 @@
  public static string fizzbuzz(int number)
     {
-
+        string x = "";
         if (number % 5 == 0 && number % 3 == 0)
         {
-            string x = "fizzbuzz";
+            x = "fizzbuzz";
             return x;
         }
         else if (number % 5 == 0)
         {
-            string x = "buzz";
+            x = "buzz";
             return x;
         }
         else number % 3 == 0
         {
-            string x = "fizz";
+            x = "fizz";
             return x;
         }
+    }
