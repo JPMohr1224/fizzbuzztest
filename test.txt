@@ -1,18 +1,18 @@
- public string fizzbuzz(int number)
+ public static string fizzbuzz(int number)
+    {
+
+        if (number % 5 == 0 && number % 3 == 0)
         {
-            if (number % 5 == 0 && number % 3 == 0)
-            {
-                return “fizzbuzz”;
-            }
-            else if (number % 5 == 0)
-            {
-                return “buzz”;
-            }
-            else if (number % 3 == 0)
-            {
-                return “fizz”;
-            }
-            else
-            {
-                return “This input is not a fizzbuzz.";
-            };
+            string x = "fizzbuzz";
+            return x;
+        }
+        else if (number % 5 == 0)
+        {
+            string x = "buzz";
+            return x;
+        }
+        else number % 3 == 0
+        {
+            string x = "fizz";
+            return x;
+        }
